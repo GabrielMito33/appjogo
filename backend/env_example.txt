@@ -1,0 +1,22 @@
+# Database
+DATABASE_URL=postgresql://postgres:password@localhost:5432/signal_rooms_db
+
+# Redis
+REDIS_URL=redis://localhost:6379/0
+
+# Security
+SECRET_KEY=your-secret-key-here-change-in-production
+ACCESS_TOKEN_EXPIRE_MINUTES=30
+
+# Environment
+ENVIRONMENT=development
+
+# External APIs
+BLAZE_API_URL=https://blaze.bet.br/api/singleplayer-originals/originals/roulette_games/recent/1
+
+# Telegram (optional - for main bot)
+TELEGRAM_BOT_TOKEN=your-telegram-bot-token
+
+# Celery
+CELERY_BROKER_URL=redis://localhost:6379/1
+CELERY_RESULT_BACKEND=redis://localhost:6379/1 

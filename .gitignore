@@ -1,0 +1,109 @@
+# ================================================
+# 🚫 GITIGNORE - SISTEMA DE BOTS
+# ================================================
+
+# ===== ARQUIVOS DE CONFIGURAÇÃO SENSÍVEIS =====
+.env
+.env.local
+.env.production
+*.key
+*.pem
+*.p12
+
+# ===== TOKENS E CHAVES =====
+telegram_tokens.txt
+api_keys.json
+supabase_keys.json
+
+# ===== LOGS =====
+*.log
+logs/
+log/
+*.log.*
+
+# ===== CACHE E TEMPORÁRIOS =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ===== VIRTUAL ENVIRONMENT =====
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# ===== IDEs =====
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ===== SISTEMA OPERACIONAL =====
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ===== DADOS SENSÍVEIS =====
+dados_plataformas.json
+robos_configurados.json
+relatorio_*.json
+analise_*.json
+configuracoes_*.json
+
+# ===== BACKUPS =====
+*.bak
+*.backup
+*.old
+*.tmp
+
+# ===== ARQUIVOS DE TESTE =====
+test_*.py
+*_test.py
+tests/
+
+# ===== ARQUIVOS DE ANÁLISE TEMPORÁRIA =====
+analise_mvp_status.py
+analise_mvp_status.json
+status_backend_sistema.py
+demonstracao_sistema_completo.py
+relatorio_demonstracao.json
+relatorio_validacao.txt
+
+# ===== ARQUIVOS DE CONFIGURAÇÃO LOCAL =====
+config_bots.json
+configurador_mensagens_avancado.py
+
+# ===== ARQUIVOS DE DOCUMENTAÇÃO TEMPORÁRIA =====
+ANALISE_COMPLETA.md
+API_Examples.md
+DEPLOYMENT.md
+ENTREGA_COMPLETA.md
+README.md
+README_MULTI_BOTS.md
+README_PRODUCAO.md
+
+# ===== ARQUIVOS DE CONFIGURAÇÃO OTIMIZADA =====
+configuracoes_otimizadas.json 

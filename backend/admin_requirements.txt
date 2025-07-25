@@ -1,0 +1,63 @@
+# 👑 DEPENDÊNCIAS PARA ADMIN BACKEND
+# Sistema de administração web para o sistema multi-plataforma
+
+# === WEB FRAMEWORK ===
+# FastAPI para API REST e interface web
+fastapi==0.104.1
+
+# Servidor ASGI para produção
+uvicorn[standard]==0.24.0
+
+# === AUTHENTICATION ===
+# JWT para autenticação
+pyjwt==2.8.0
+
+# Formulários multipart
+python-multipart==0.0.6
+
+# === SYSTEM MONITORING ===
+# Monitoramento de sistema
+psutil==5.9.6
+
+# === SECURITY ===
+# Hashing de senhas
+passlib[bcrypt]==1.7.4
+
+# Criptografia
+cryptography==41.0.7
+
+# === UTILITIES ===
+# Validação de dados
+pydantic==2.5.0
+
+# Datas
+python-dateutil==2.8.2
+
+# === CORE DEPENDENCIES (do sistema principal) ===
+# HTTP client para APIs
+aiohttp==3.9.1
+requests==2.31.0
+
+# === OPTIONAL ENHANCEMENTS ===
+# Templates Jinja2 (se necessário)
+jinja2==3.1.2
+
+# Logs estruturados
+structlog==23.2.0
+
+# Manipulação de JSON
+ujson==5.8.0
+
+# === DEVELOPMENT ===
+# Formatação de código
+black==23.11.0
+
+# Ordenação de imports
+isort==5.12.0
+
+# Testing
+pytest==7.4.3
+pytest-asyncio==0.21.1
+
+# HTTP testing
+httpx==0.25.2 

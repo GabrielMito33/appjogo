@@ -1,0 +1,111 @@
+{
+  "timestamp": "20250725_102806",
+  "config": {
+    "max_gales": 2,
+    "protection": true,
+    "interval_seconds": 3,
+    "enable_alerts": true,
+    "confidence_threshold": 75,
+    "max_concurrent_gales": 3,
+    "api_timeout": 15,
+    "max_retries": 3,
+    "backup_interval": 3600,
+    "stats_interval": 1800,
+    "health_check_interval": 300,
+    "log_level": "INFO",
+    "auto_restart_errors": 5,
+    "maintenance_hour": 4
+  },
+  "strategies": [
+    {
+      "id": 1,
+      "name": "\ud83d\udd34 Double Red Alert",
+      "conditions": [
+        "V",
+        "V"
+      ],
+      "bet_direction": "P",
+      "priority": 1,
+      "active": true,
+      "min_confidence": 85,
+      "max_daily_signals": 10
+    },
+    {
+      "id": 2,
+      "name": "\u26ab Double Black Alert",
+      "conditions": [
+        "P",
+        "P"
+      ],
+      "bet_direction": "V",
+      "priority": 1,
+      "active": true,
+      "min_confidence": 85,
+      "max_daily_signals": 10
+    },
+    {
+      "id": 3,
+      "name": "\ud83c\udfaf Triple Sequence",
+      "conditions": [
+        "V",
+        "V",
+        "P"
+      ],
+      "bet_direction": "V",
+      "priority": 2,
+      "active": true,
+      "min_confidence": 80,
+      "max_daily_signals": 5
+    },
+    {
+      "id": 4,
+      "name": "\ud83d\udc8e Mega Pattern",
+      "conditions": [
+        "P",
+        "P",
+        "P"
+      ],
+      "bet_direction": "V",
+      "priority": 1,
+      "active": true,
+      "min_confidence": 90,
+      "max_daily_signals": 3
+    },
+    {
+      "id": 5,
+      "name": "\u26a1 Lightning Strike",
+      "conditions": [
+        "V",
+        "P",
+        "V",
+        "P"
+      ],
+      "bet_direction": "V",
+      "priority": 3,
+      "active": true,
+      "min_confidence": 75,
+      "max_daily_signals": 8
+    }
+  ],
+  "session_stats": {
+    "inicio": "2025-07-25 10:26:49.276509",
+    "sinais_enviados": 3,
+    "wins": 0,
+    "losses": 0,
+    "brancos": 0,
+    "gales_1": 2,
+    "gales_2": 1,
+    "ultimo_sinal": "2025-07-25 10:27:45.716928",
+    "ultimo_backup": "2025-07-25 10:26:49.337849",
+    "errors_count": 0,
+    "api_calls": 20,
+    "telegram_messages": 7
+  },
+  "strategy_daily_count": {
+    "1": 3,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0
+  }
+}

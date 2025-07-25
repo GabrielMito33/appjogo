@@ -1,0 +1,72 @@
+# 🚀 DEPENDÊNCIAS PARA MVP DO SISTEMA MULTI-PLATAFORMA
+# Sistema completo de bots para múltiplas plataformas de apostas
+
+# === CORE DEPENDENCIES ===
+# HTTP client assíncrono para APIs e Telegram
+aiohttp==3.9.1
+
+# Processamento de dados JSON
+requests==2.31.0
+
+# === TELEGRAM BOT ===
+# Biblioteca oficial para bots Telegram (opcional - usando aiohttp diretamente)
+# python-telegram-bot==20.7
+
+# === ASYNC SUPPORT ===
+# Suporte assíncrono avançado
+asyncio-throttle==1.0.2
+
+# === DATA PROCESSING ===
+# Análise de dados e estatísticas
+numpy==1.24.3
+pandas==2.0.3
+
+# === LOGGING AND MONITORING ===
+# Logs estruturados
+structlog==23.2.0
+
+# === UTILITIES ===
+# Manipulação de datas
+python-dateutil==2.8.2
+
+# Validação de dados
+pydantic==2.5.0
+
+# Variáveis de ambiente (se necessário)
+python-dotenv==1.0.0
+
+# === DEVELOPMENT (OPTIONAL) ===
+# Testing
+pytest==7.4.3
+pytest-asyncio==0.21.1
+
+# Formatação de código
+black==23.11.0
+isort==5.12.0
+
+# === SPECIFIC VERSIONS FOR STABILITY ===
+# JSON handling
+ujson==5.8.0
+
+# Path manipulation
+pathlib2==2.3.7
+
+# Regular expressions
+regex==2023.10.3
+
+# === PLATFORM SPECIFIC ===
+# Windows compatibility
+pywin32==306; platform_system=="Windows"
+
+# === OPTIONAL EXTENSIONS ===
+# Web interface (future)
+# fastapi==0.104.1
+# uvicorn==0.24.0
+
+# Database (future)
+# sqlalchemy==2.0.23
+# alembic==1.12.1
+
+# Security (future)
+# cryptography==41.0.7
+# passlib==1.7.4 
